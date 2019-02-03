@@ -1,0 +1,7 @@
+.layout nav ul { 
+    display: flex;
+    margin: auto;
+} 
+.layout nav ul{ 
+    font-family: 11px
+} 

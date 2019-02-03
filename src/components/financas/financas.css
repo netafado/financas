@@ -1,0 +1,46 @@
+.financas .financas-body{
+    margin-top: 50px
+}
+
+.empresas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.empresas > *{
+    box-shadow: 2px 2px 2px lightblue;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px
+} 
+
+.empresa{
+    display: flex;
+    position: relative;
+    min-width: 220px;
+    width: 20%;
+    min-height: 220px
+}
+
+.empresa .fechar{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer
+}
+
+.empresa .info{
+
+    position: absolute;
+    left: 10px;
+    top:10px
+}
+
+.empresa img{
+    max-height: fit-content;
+    align-self: center;
+}
+
